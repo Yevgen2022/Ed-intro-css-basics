@@ -38,13 +38,13 @@ ol {
 }
 
 a {
-    color: dodgerblue !important;
+    color: dodgerblue ;
 }
 
 a:visited {
-    color: violet !important;
+    color: violet;
 }
 
 a:hover {
-    color: mediumseagreen !important;
+    color: mediumseagreen;
 }
