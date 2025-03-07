@@ -33,18 +33,18 @@ p {
     border: 5px solid slateblue;
 }
 
-ol{
+ol {
     list-style-type: upper-roman;
 }
 
-body a {
-    color: dodgerblue;
+a {
+    color: dodgerblue !important;
 }
 
-body a:visited{
-    color: violet;
+a:visited {
+    color: violet !important;
 }
 
-body a:hover{
-    color: mediumseagreen;
+a:hover {
+    color: mediumseagreen !important;
 }
