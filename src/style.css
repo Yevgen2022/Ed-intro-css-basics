@@ -37,14 +37,14 @@ ol{
     list-style-type: upper-roman;
 }
 
-nav ol li a {
+body a {
     color: dodgerblue;
 }
 
-nav ol li a:visited{
+body a:visited{
     color: violet;
 }
 
-nav ol li a:hover{
+body a:hover{
     color: mediumseagreen;
 }
