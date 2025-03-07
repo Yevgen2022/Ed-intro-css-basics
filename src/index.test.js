@@ -167,13 +167,10 @@ describe('Introduction to CSS basics', () => {
 
             const link = document.querySelectorAll('a')[index];
             const linkComputedStyle = dom.window.getComputedStyle(link);
-
-            expect(linkComputedStyle.color).toBe('dodgerblue'); 
-            // expect(linkComputedStyle).toEqual(expect.objectContaining({
-            //     'color': 'dodgerblue',
-            // }));
-
-
+            expect(linkComputedStyle).toEqual(expect.objectContaining({
+                // 'color': 'dodgerblue',
+                'color': 'mediumseagreen',
+            }));
         });
 
         it('should have correct styles for a visited links', async () => {
@@ -181,11 +178,9 @@ describe('Introduction to CSS basics', () => {
 
             const styleDeclaration = getStyleDeclarationForSelector('a:visited', document.styleSheets);
 
-            expect(styleDeclaration.color).toBe('violet');
-            // expect(styleDeclaration).toEqual(expect.objectContaining({
-            //     'color': 'violet',
-            // }));
-
+            expect(styleDeclaration).toEqual(expect.objectContaining({
+                'color': 'violet',
+            }));
         });
 
         it('should have correct styles for a hovered links', async () => {
@@ -193,10 +188,9 @@ describe('Introduction to CSS basics', () => {
 
             const styleDeclaration = getStyleDeclarationForSelector('a:hover', document.styleSheets);
 
-            expect(styleDeclaration.color).toBe('mediumseagreen');
-            // expect(styleDeclaration).toEqual(expect.objectContaining({
-            //     'color': 'mediumseagreen',
-            // }));
+            expect(styleDeclaration).toEqual(expect.objectContaining({
+                'color': 'mediumseagreen',
+            }));
         });
     });
 });
