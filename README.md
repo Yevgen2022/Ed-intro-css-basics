@@ -3,7 +3,7 @@
 A foundational HTML & CSS project focused on applying different types of styling: external stylesheets, embedded styles, and inline styles. The goal was to practice working with style layers, text formatting, colors, and basic CSS selectors for a visually organized page.
 
 ## Live Demo
-[Click here to view](https://introduction-to-css-basics-35662b.gitlab.io)
+[Click here to view](https://yevgen2022.github.io/Ed-intro-css-basics/)
 
 ## Key Concepts Applied
 
